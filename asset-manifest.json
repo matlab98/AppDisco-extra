@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AppDisco-extra/static/css/main.b727ac9a.chunk.css",
-    "main.js": "/AppDisco-extra/static/js/main.ff8ff51d.chunk.js",
-    "main.js.map": "/AppDisco-extra/static/js/main.ff8ff51d.chunk.js.map",
+    "main.js": "/AppDisco-extra/static/js/main.ea004ae2.chunk.js",
+    "main.js.map": "/AppDisco-extra/static/js/main.ea004ae2.chunk.js.map",
     "runtime-main.js": "/AppDisco-extra/static/js/runtime-main.7e1ed23a.js",
     "runtime-main.js.map": "/AppDisco-extra/static/js/runtime-main.7e1ed23a.js.map",
     "static/js/2.f91f0784.chunk.js": "/AppDisco-extra/static/js/2.f91f0784.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.7e1ed23a.js",
     "static/js/2.f91f0784.chunk.js",
     "static/css/main.b727ac9a.chunk.css",
-    "static/js/main.ff8ff51d.chunk.js"
+    "static/js/main.ea004ae2.chunk.js"
   ]
 }
