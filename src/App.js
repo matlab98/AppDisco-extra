@@ -9,7 +9,8 @@ function App() {
     <Provider store={Store}>
       <div className="container text-center">
         <header><h1>Discoteca</h1></header>
-        <div className="row mt-3">
+
+        <div className="infinite row mt-3">
           <div className="col-md-6">
             < AgregarAsistente />
           </div>
@@ -17,6 +18,7 @@ function App() {
             < ListarAsistente />
           </div>
         </div>
+        
       </div>
     </Provider>
   );

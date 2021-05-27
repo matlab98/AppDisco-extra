@@ -165,15 +165,20 @@ h1, .h1 {
   background-color: rgba(255, 255, 255, 0.85);
    box-shadow:0 0 15px #888;
  border:1px solid #cccccc;
-    width:350;
+    width:90%;
+    height: 80%;
 position:absolute;
    left:0;
    right:0;
    margin:auto;
    overflow-y:hidden;
-   top: 32%;
+   top: 3%;
 transition: all 550ms ease-in-out 0s;
+
 }
+.infinite {
+top:0;
+  	animation: scroll 10s linear 1s infinite;}
 
 @media only screen and (max-width: 320px) {
   .toast-header  {
@@ -196,7 +201,7 @@ transition: all 550ms ease-in-out 0s;
 
 @media only screen and (max-width: 360px) {
   .toast-header  {
-      top: 29%;
+      top: 4%;
   }
 }
 
@@ -218,8 +223,8 @@ transition: all 550ms ease-in-out 0s;
 @media only screen and (min-width: 1024px){
   @media only screen and  (min-height: 768px){
   .toast-header  {
-      width: 700;
-      top: 23%;
+      width: 80%;
+      top: 15%;
   }
 }
 }
@@ -473,4 +478,7 @@ select.form-control:focus::-ms-value {
     box-shadow: 0 -2em #ffffff;
     height: 2em;
   }
+}
+@keyframes scroll {
+	100% { top: -1000px; }  /* top is the number of spans (in this case 8) multiplied by span height (45px as described above)*/
 }
