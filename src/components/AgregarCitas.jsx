@@ -9,8 +9,7 @@ const AgregarCitas = () => {
     const [formValues, handleInputChange, reset] = useForm({
         nombre: '',
         fecha: '',
-        hora: '',
-        sintomas: ''
+        hora: ''
     });
 
     const { nombre, fecha, hora, sintomas } = formValues;
@@ -29,7 +28,7 @@ const AgregarCitas = () => {
         reset();
 
         //Validar campo
-    if( nombre.trim() === '' || fecha.trim() === '' || hora.trim() === '' || sintomas.trim() === '' ) {
+    if( nombre.trim() === '' || fecha.trim() === '' || hora.trim() === '' ) {
         validarFormulario(true);
         return;
     }
@@ -40,8 +39,7 @@ const AgregarCitas = () => {
             id:uuid(),
             nombre,
             fecha,
-            hora,
-            sintomas
+            hora
         })
     }
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import Store from './store/Store'
 import { Provider } from 'react-redux'
 import AgregarAsistente from './components/AgregarCitas';
