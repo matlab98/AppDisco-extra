@@ -9,10 +9,11 @@ const AgregarCitas = () => {
     const [formValues, handleInputChange, reset] = useForm({
         nombre: '',
         fecha: '',
-        hora: ''
+        hora: '',
+        comentario: ''
     });
 
-    const { nombre, fecha, hora, sintomas } = formValues;
+    const { nombre, fecha, hora, comentario} = formValues;
 
     const dispatch = useDispatch();
     const AgregarCita = (cita) => { dispatch(ActionCita(cita)) }
@@ -39,7 +40,8 @@ const AgregarCitas = () => {
             id:uuid(),
             nombre,
             fecha,
-            hora
+            hora,
+            comentario
         })
     }
 
@@ -95,10 +97,10 @@ const AgregarCitas = () => {
                         <label className="col-sm-4 col-lg-2 col-form-label">Comentarios</label>
                         <div className="form-group">
                             <textarea
-                                name="sintomas"
+                                name="comentarios"
                                 className="form-control"
                                 autoComplete="off"
-                                value={sintomas}
+                                value={comentario}
                                 onChange={handleInputChange}>
 
                             </textarea>

@@ -24,6 +24,7 @@ const ListarCitas = () => {
                                 <th scope="col">Nombre</th>
                                 <th scope="col">Fecha</th>
                                 <th scope="col">Hora</th>
+                                <th scope="col">Acción</th>
                             </tr>
                         </thead>
                         <tbody>
