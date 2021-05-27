@@ -1,5 +1,5 @@
 export const types = {
-    agregar: 'AGREGAR_CITA',
-    borrar: 'BORRAR_CITA',
+    agregar: 'AGREGAR_ASISTENCIA',
+    borrar: 'BORRAR_ASISTENCIA',
     validar: 'VALIDAR_FORMULARIO'
 }

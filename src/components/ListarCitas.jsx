@@ -24,8 +24,6 @@ const ListarCitas = () => {
                                 <th scope="col">Nombre</th>
                                 <th scope="col">Fecha</th>
                                 <th scope="col">Hora</th>
-                                <th scope="col">Fractura</th>
-                                <th scope="col">Acción</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -34,7 +32,6 @@ const ListarCitas = () => {
                                     <td>{cita.nombre}</td>
                                     <td>{cita.fecha}</td>
                                     <td>{cita.hora}</td>
-                                    <td>{cita.sintomas}</td>
                                     <td><button className="btn btn-danger"
                                         onClick={() => dispatch(BorrarActionCita(cita.id))}>
                                         Borrar &times;

@@ -49,7 +49,7 @@ const AgregarCitas = () => {
         <div className="card mt-5">
             <div className="card-body">
                 <form onSubmit={handleSubmit}>
-                    <h1> Agregar Citas</h1>
+                    <h1> Registrar asistencia</h1>
                     <hr />
 
                     <div className="orm-group row">
@@ -80,7 +80,7 @@ const AgregarCitas = () => {
                             />
                         </div>
 
-                        <label className="col-sm-4 col-lg-2 col-form-label">hora</label>
+                        <label className="col-sm-4 col-lg-2 col-form-label">Hora</label>
                         <div className="form-group col-sm-8 col-lg-4">
                             <input
                                 type="time"
@@ -94,7 +94,7 @@ const AgregarCitas = () => {
                         </div>
                     </div>
                     <div className="form-group row">
-                        <label className="col-sm-4 col-lg-2 col-form-label">Sintomas</label>
+                        <label className="col-sm-4 col-lg-2 col-form-label">Comentarios</label>
                         <div className="form-group">
                             <textarea
                                 name="sintomas"

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.b727ac9a.chunk.css",
-    "main.js": "/static/js/main.ff8ff51d.chunk.js",
-    "main.js.map": "/static/js/main.ff8ff51d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.406dd86f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.406dd86f.js.map",
-    "static/js/2.f91f0784.chunk.js": "/static/js/2.f91f0784.chunk.js",
-    "static/js/2.f91f0784.chunk.js.map": "/static/js/2.f91f0784.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.b727ac9a.chunk.css.map": "/static/css/main.b727ac9a.chunk.css.map",
-    "static/js/2.f91f0784.chunk.js.LICENSE.txt": "/static/js/2.f91f0784.chunk.js.LICENSE.txt"
+    "main.css": "/AppDisco-extra/static/css/main.49ce9259.chunk.css",
+    "main.js": "/AppDisco-extra/static/js/main.59d0e810.chunk.js",
+    "main.js.map": "/AppDisco-extra/static/js/main.59d0e810.chunk.js.map",
+    "runtime-main.js": "/AppDisco-extra/static/js/runtime-main.7e1ed23a.js",
+    "runtime-main.js.map": "/AppDisco-extra/static/js/runtime-main.7e1ed23a.js.map",
+    "static/js/2.ad7932cd.chunk.js": "/AppDisco-extra/static/js/2.ad7932cd.chunk.js",
+    "static/js/2.ad7932cd.chunk.js.map": "/AppDisco-extra/static/js/2.ad7932cd.chunk.js.map",
+    "index.html": "/AppDisco-extra/index.html",
+    "static/css/main.49ce9259.chunk.css.map": "/AppDisco-extra/static/css/main.49ce9259.chunk.css.map",
+    "static/js/2.ad7932cd.chunk.js.LICENSE.txt": "/AppDisco-extra/static/js/2.ad7932cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.406dd86f.js",
-    "static/js/2.f91f0784.chunk.js",
-    "static/css/main.b727ac9a.chunk.css",
-    "static/js/main.ff8ff51d.chunk.js"
+    "static/js/runtime-main.7e1ed23a.js",
+    "static/js/2.ad7932cd.chunk.js",
+    "static/css/main.49ce9259.chunk.css",
+    "static/js/main.59d0e810.chunk.js"
   ]
 }
